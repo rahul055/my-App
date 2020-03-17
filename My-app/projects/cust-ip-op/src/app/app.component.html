@@ -1,0 +1,24 @@
+<div
+  class="container-fluid"
+  [style.background]="bgClr"
+  [style.height]="'100vh'"
+>
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-info text-center mt-5" [style.background]="bgHeader">
+        Welcome to my Project
+      </h1>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-6 col-lg-6">
+      <app-video-link
+        [myinp]="inputstr"
+        (myopt)="getdata($event)"
+      ></app-video-link>
+    </div>
+    <div class="col-md-6 col-lg-6">
+      <div id="mydiv" #test></div>
+    </div>
+  </div>
+</div>

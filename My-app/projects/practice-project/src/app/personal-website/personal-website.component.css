@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu+Mono&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Lato;
+}
+
+.navbar-brand {
+  font-family: "Pacifico";
+  font-size: 35px;
+  color: lightcoral !important;
+  text-shadow: yellowgreen 0 5px 3px;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
+  color: black !important;
+  font-family: "Roboto Condensed";
+}
+
+.nav-link:hover {
+  color: #00e8e8 !important;
+}
+
+.active .nav-link {
+  color: #00e8e8 !important;
+}
+
+.menu-right-btn {
+  padding: 13px 46px;
+  margin-left: 4%;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover {
+  color: white;
+  background-color: #00e8e8;
+}
+
+.site-content {
+  background-image: url(projects\practice-project\src\assets\images\section-1bg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.site-title,
+.site-desc {
+  color: white;
+  font-family: "Righteous";
+}
+
+.site-title {
+  color: greenyellow !important;
+  font-size: 50px;
+  margin-top: 30%;
+  margin-bottom: 6%;
+  text-shadow: black 2px 5px 3px;
+}
+
+/* 
+.site-title:hover {
+  color: blueviolet;
+} */
+
+.site-desc {
+  /* font-size: 14px; */
+  padding-left: 10%;
+  text-shadow: black 0 5px 3px;
+}
+
+.site-btn1 {
+  margin-left: 20%;
+  color: white;
+  background-color: black;
+}
+
+.site-btn1,
+.site-btn2 {
+  margin-top: 5%;
+  margin-bottom: 40%;
+  box-shadow: lightblue 2px 3px 3px;
+}
+
+.section-1 .heading-1 {
+  margin-top: 8%;
+}
+
+.section-1 .heading-2 {
+  margin-bottom: 5%;
+  font-size: 39px;
+}
+
+.section-1 .para-1 {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.section-1 {
+  margin-bottom: 8%;
+}
+
+.section-1 .para-1,
+.card-text {
+  color: rgba(0, 0, 0, 0.59);
+}

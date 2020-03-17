@@ -1,0 +1,170 @@
+<div class="calculator card">
+  <input
+    type="text"
+    class="calculator-screen z-depth-1"
+    value=""
+    disabled
+    #answer
+  />
+
+  <div class="calculator-keys">
+    <button
+      type="button"
+      class="operator btn btn-info"
+      value="+"
+      (keyup.+)="mykeyupadd()"
+      (click)="clkadd()"
+    >
+      +
+    </button>
+    <button
+      type="button"
+      class="operator btn btn-info"
+      value="-"
+      (keyup.-)="mykeyupsub()"
+      (click)="clksub()"
+    >
+      -
+    </button>
+    <button
+      type="button"
+      class="operator btn btn-info"
+      value="*"
+      (keyup.*)="mykeyupmul()"
+      (click)="clkmul()"
+    >
+      *
+    </button>
+    <button
+      type="button"
+      class="operator btn btn-info"
+      value="/"
+      (keyup.)="mykeyupdiv()"
+      (click)="clkdiv()"
+    >
+      /
+    </button>
+
+    <button
+      type="button"
+      value="7"
+      class="btn btn-light waves-effect"
+      (keyup.7)="mykeyupseven()"
+      (click)="clkseven()"
+    >
+      7
+    </button>
+    <button
+      type="button"
+      value="8"
+      class="btn btn-light waves-effect"
+      (keyup.8)="mykeyupeight()"
+      (click)="clkeight()"
+    >
+      8
+    </button>
+    <button
+      type="button"
+      value="9"
+      class="btn btn-light waves-effect"
+      (keyup.9)="mykeyupnine()"
+      (click)="clknine()"
+    >
+      9
+    </button>
+
+    <button
+      type="button"
+      value="4"
+      class="btn btn-light waves-effect"
+      (keyup.4)="mykeyupfour()"
+      (click)="clkfour()"
+    >
+      4
+    </button>
+    <button
+      type="button"
+      value="5"
+      class="btn btn-light waves-effect"
+      (keyup.5)="mykeyupfive()"
+      (click)="clkfive()"
+    >
+      5
+    </button>
+    <button
+      type="button"
+      value="6"
+      class="btn btn-light waves-effect"
+      (keyup.6)="mykeyupsix()"
+      (click)="clksix()"
+    >
+      6
+    </button>
+
+    <button
+      type="button"
+      value="1"
+      class="btn btn-light waves-effect"
+      (click)="clkone()"
+      (keyup.1)="mykeyup()"
+    >
+      1
+    </button>
+    <button
+      type="button"
+      value="2"
+      class="btn btn-light waves-effect"
+      (click)="clktwo()"
+      (keyup.2)="mykeyuptwo()"
+    >
+      2
+    </button>
+    <button
+      type="button"
+      value="3"
+      class="btn btn-light "
+      (click)="clkthree()"
+      (keyup.3)="mykeyupthree()"
+    >
+      3
+    </button>
+
+    <button
+      type="button"
+      value="0"
+      class="btn btn-light waves-effect"
+      (keyup.0)="mykeyupzero()"
+      (click)="clkzero()"
+    >
+      0
+    </button>
+    <button
+      type="button"
+      class="decimal function btn btn-secondary"
+      value="."
+      (keyup..)="mykeyupdot()"
+      (click)="clkdot()"
+    >
+      .
+    </button>
+    <button
+      type="button"
+      class="all-clear function btn btn-danger btn-sm"
+      (click)="cls()"
+      (keyup.backspace)="bksp()"
+      value="all-clear"
+    >
+      AC
+    </button>
+
+    <button
+      type="button"
+      class="equal-sign operator btn btn-default"
+      value="="
+      (keyup.enter)="equation()"
+      (click)="clkansw()"
+    >
+      =
+    </button>
+  </div>
+</div>
